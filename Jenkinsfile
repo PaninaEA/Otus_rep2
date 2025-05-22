@@ -4,7 +4,7 @@ pipeline {
         image 'python:3.11'
       }
     }
-stages
+stages {
       stage('Run Tests') {
             steps {
                 script {
@@ -13,7 +13,7 @@ stages
                 }
             }
         }
-
+}
       
 
     
